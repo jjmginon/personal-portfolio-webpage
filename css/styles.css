@@ -166,6 +166,7 @@ a:visited {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: slideFadeInLeft 1.5s ease-in-out forwards;
 }
 
 .welcome__h2 {
@@ -176,23 +177,36 @@ a:visited {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: slideFadeInLeft 1.5s ease-in-out forwards;
 }
 
 .welcome__p {
     margin-top: 1rem;
     font-size: var(--FS);
     color: var(--FONT-COLOR);
+    animation: slideFadeInBottom 1.5s ease-in-out forwards;
 }
 
 .welcome__p:first-of-type {
     position: relative;
     padding-left: 1rem;
-    border-left: 3px solid var(--HIGHLIGHT-COLOR);
+}
+
+.welcome__p:first-of-type::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: var(--HIGHLIGHT-COLOR);
+    animation: slideFadeInTop 1s ease-in-out forwards;
 }
 
 .welcome__ul {
     padding-left: 2rem;
     list-style-type: none;
+    animation: slideFadeInBottom 1.5s ease-in-out forwards;
 }
 
 .welcome__ul li {
@@ -208,6 +222,42 @@ a:visited {
 
 .img-container {
     display: none;
+}
+
+@keyframes slideFadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFadeInTop {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+
+    to {
+        height: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes slideFadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* PROJECT PAGE */
@@ -456,6 +506,7 @@ a:visited {
         margin-top: 3rem;
         width: 55%;
         max-width: 350px;
+        animation: slideFadeInBottom 1.5s ease-in-out forwards;
     }
 
     .project-container {
