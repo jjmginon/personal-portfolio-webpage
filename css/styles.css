@@ -50,9 +50,7 @@ img {
     --FONT-COLOR: #e6edf3;
     --HEADER-BGCOLOR: #161b22;
     --HEADER-COLOR: #e6edf3;
-    --HEADING-COLOR: #e6edf3;
     --HIGHLIGHT-COLOR: #d4d8f0;
-    --LS-BGCOLOR: hsl(230, 33%, 10%);
     --LS-COLOR: #e6edf3;
     --MAIN-BGCOLOR: linear-gradient(to top, rgb(48, 61, 99), rgb(0, 0, 0));
     --MAIN-COLOR: #e6edf3;
@@ -189,9 +187,7 @@ a:visited {
 .welcome__p:first-of-type {
     position: relative;
     padding-left: 1rem;
-    /* Adjust the padding to create space for the line */
     border-left: 3px solid var(--HIGHLIGHT-COLOR);
-    /* Adjust the width and color as needed */
 }
 
 .welcome__ul {
