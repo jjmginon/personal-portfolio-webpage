@@ -1,5 +1,7 @@
 # Personal Portfolio Webpage
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1dc613ad-5f41-45a0-a793-2049839bbea8/deploy-status)](https://app.netlify.com/sites/portfolio-webpage-sample/deploys)
+
 ## Welcome to my Personal Portfolio Webpage!
 
 Discover my cutting-edge web development skills, from responsive designs to the latest web technologies. As a passionate developer, I bring creativity and functionality together. Explore my innovative web projects, and let's create unforgettable digital experiences together! 🚀
@@ -9,6 +11,7 @@ Discover my cutting-edge web development skills, from responsive designs to the 
 - [Personal Portfolio Webpage](#personal-portfolio-webpage)
   - [Welcome to my Personal Portfolio Webpage!](#welcome-to-my-personal-portfolio-webpage)
   - [Table of Contents](#table-of-contents)
+  - [Netlify Status](#netlify-status)
   - [Project Description](#project-description)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
@@ -21,6 +24,10 @@ Discover my cutting-edge web development skills, from responsive designs to the 
   - [Author](#author)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
+
+## Netlify Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1dc613ad-5f41-45a0-a793-2049839bbea8/deploy-status)](https://app.netlify.com/sites/portfolio-webpage-sample/deploys)
 
 ## Project Description
 
