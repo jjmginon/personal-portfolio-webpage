@@ -31,7 +31,7 @@ img {
 
 :root {
     /* FONTS */
-    --FF-HEADINGS: "Inconsolata", serif;
+    --FF-HEADINGS: "Inconsolata", monospace;
     --FF-NAV: "Inconsolata", serif;
     --FF: "Open Sans", sans-serif;
     --FS: clamp(1rem, 2.2vh, 1.5rem);
