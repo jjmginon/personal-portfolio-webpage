@@ -40,23 +40,24 @@ img {
     --NAV-FS: clamp(1.1rem, 2.3vh, 1.6rem);
 
     /* COLORS */
-    --BODY-BGCOLOR: linear-gradient(to top, rgb(48, 61, 99), rgb(0, 0, 0));
+    --GRADIENT-COLOR: rgb(48, 61, 99);
+    --BODY-BGCOLOR: linear-gradient(to top, var(--GRADIENT-COLOR), rgb(0, 0, 0));
     --BORDER-COLOR: #0d1117;
     --BUTTON-ACTIVE-COLOR: #2f81f7;
     --BUTTON-COLOR: #30363d;
     --BUTTON-HOVER-COLOR: #2f81f7;
-    --CONTACT-BGCOLOR: linear-gradient(to top, rgb(48, 61, 99), rgb(0, 0, 0));
-    --CONTAINER-COLOR: linear-gradient(to top, rgb(48, 61, 99), rgb(0, 0, 0));
+    --CONTACT-BGCOLOR: linear-gradient(to top, var(--GRADIENT-COLOR), rgb(0, 0, 0));
+    --CONTAINER-COLOR: linear-gradient(to top, var(--GRADIENT-COLOR), rgb(0, 0, 0));
     --FONT-COLOR: #e6edf3;
     --HEADER-BGCOLOR: #161b22;
     --HEADER-COLOR: #e6edf3;
     --HIGHLIGHT-COLOR: #d4d8f0;
     --LS-COLOR: #e6edf3;
-    --MAIN-BGCOLOR: linear-gradient(to top, rgb(48, 61, 99), rgb(0, 0, 0));
+    --MAIN-BGCOLOR: linear-gradient(to top, var(--GRADIENT-COLOR), rgb(0, 0, 0));
     --MAIN-COLOR: #e6edf3;
     --NAV-ACTIVE-COLOR: #79c0ff;
     --NAV-HOVER-COLOR: #79c0ff;
-    --SS-BGCOLOR: linear-gradient(to bottom, rgb(48, 61, 99), rgb(0, 0, 0));
+    --SS-BGCOLOR: linear-gradient(to bottom, var(--GRADIENT-COLOR), rgb(0, 0, 0));
     --SS-COLOR: #e6edf3;
 }
 
